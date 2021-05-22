@@ -111,7 +111,7 @@ h1 {
 
 @media (min-width: 1005px) {
   body {
-    margin: 5em auto;
+    margin: 10em auto;
   }
   .container {
     display: grid;

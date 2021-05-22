@@ -4,11 +4,12 @@
   "description": "![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "CKHarrison",
   "license": "ISC",
+  "homepage": "https://ckharrison.github.io/stats-preview-card-component/",
   "devDependencies": {
     "gh-pages": "^3.1.0"
   }
