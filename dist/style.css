@@ -118,7 +118,6 @@ h1 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(5, 1fr);
     max-width: 1200px;
-    margin: 1em;
   }
   .hero {
     grid-column: 2;
@@ -136,10 +135,7 @@ h1 {
     border-radius: 10px 0 0 10px;
     grid-column: 1 / 2;
     grid-row: 1 / 5;
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
   }
 
   .sales-pitch {
@@ -153,8 +149,12 @@ h1 {
   
   .stats {
     display: flex;
-    gap: 2em;
+    gap: 4.5em;
     justify-content: space-between;
+  }
+
+  .stat-heading {
+    text-align: left;
   }
 
   .attribution {
